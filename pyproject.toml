@@ -3,9 +3,9 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name =  "py-project-toml"
+name =  "iceland"
 authors = [
-    {name = "Daniel Ciborowski", email = "dciborow@microsoft.com"},
+    {name = "Shafqat", email = "shafqat.net@hotmail.com"},
 ]
 description = "Sample Python Project for creating a new Python Module"
 readme = "README.md"
@@ -47,12 +47,12 @@ test = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/microsoft/python-package-template/tree/main#readme"
-Source = "https://github.com/microsoft/python-package-template"
-Tracker = "https://github.com/microsoft/python-package-template/issues"
+Documentation = "https://github.com/shafqatalix/codegen-iceland/tree/main#readme"
+Source = "https://github.com/shafqatalix/codegen-iceland"
+Tracker = "https://github.com/shafqatalix/codegen-iceland/issues"
 
 [tool.flit.module]
-name = "python_package"
+name = "iceland"
 
 [tool.bandit]
 exclude_dirs = ["build","dist","tests","scripts"]

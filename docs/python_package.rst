@@ -7,7 +7,7 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   python_package.hello_world
+   iceland.hello_world
 
 Submodules
 ----------
@@ -15,7 +15,7 @@ Submodules
 python\_package.setup module
 ----------------------------
 
-.. automodule:: python_package.setup
+.. automodule:: iceland.setup
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ python\_package.setup module
 Module contents
 ---------------
 
-.. automodule:: python_package
+.. automodule:: iceland
    :members:
    :undoc-members:
    :show-inheritance:
